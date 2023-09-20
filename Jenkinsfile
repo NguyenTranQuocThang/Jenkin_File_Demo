@@ -3,7 +3,7 @@ pineline {
     stages {
         stage('Clone') {
             steps {
-                git ''
+                git 'https://github.com/NguyenTranQuocThang/Jenkin_File_Demo.git'
             }
         }
     }
